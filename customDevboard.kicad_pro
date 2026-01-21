@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -631,6 +631,10 @@
     [
       "87078d80-bd64-4f8e-8d0b-a79df4010aa3",
       "Root"
+    ],
+    [
+      "9fb0086c-660e-4761-976f-d195fba4a9cc",
+      "BEC"
     ]
   ],
   "text_variables": {}

@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "customimages")(type "KiCad")(uri "${KIPRJMOD}/customimages")(options "")(descr ""))
+  (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/BMI270")(options "")(descr ""))
+  (lib (name "DPS310")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/DPS310")(options "")(descr ""))
 )
