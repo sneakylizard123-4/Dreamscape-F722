@@ -1,5 +1,6 @@
 # customDevboard
-custom devboard made with RP 2040 in 30x30 flight controller size
+A Custom Devboard made with the RP2040 microcontroller in 30x30 flight controller size
+Blender Render (old):
 <img width="2560" height="1920" alt="PCB_matteblack2" src="https://github.com/user-attachments/assets/aa8ccd1f-9989-4be6-82b1-e920fcfd2905" />
 
 # Schematics & PCB view
