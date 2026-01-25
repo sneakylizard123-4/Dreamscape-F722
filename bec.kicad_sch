@@ -1924,6 +1924,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 54.61) (xy 219.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be643f7-be1a-4e29-b97e-72be4fa5c0ef")
+	)
+	(wire
+		(pts
 			(xy 54.61 27.94) (xy 52.07 27.94)
 		)
 		(stroke
@@ -1961,6 +1971,16 @@
 			(type default)
 		)
 		(uuid "673b0ee7-4298-4f9b-b76c-0f214c236b9a")
+	)
+	(wire
+		(pts
+			(xy 217.17 57.15) (xy 219.71 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c6c4f6-d2cf-47ce-b9f6-b1f1421ceb68")
 	)
 	(wire
 		(pts
@@ -2094,6 +2114,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 63.5) (xy 219.71 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99509253-d77a-439c-bab7-1fa6d45524b8")
+	)
+	(wire
+		(pts
 			(xy 166.37 29.21) (xy 166.37 27.94)
 		)
 		(stroke
@@ -2214,6 +2244,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 66.04) (xy 219.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6acde3b-4285-4b58-9d2d-7a0c001024e6")
+	)
+	(wire
+		(pts
 			(xy 172.72 50.8) (xy 172.72 38.1)
 		)
 		(stroke
@@ -2322,6 +2362,28 @@
 		)
 		(uuid "fefeec9b-9bab-4795-a724-6c519c8af08f")
 	)
+	(global_label "BEC_OUT"
+		(shape input)
+		(at 217.17 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27dce9eb-243a-40d8-8aea-68a3fb3d526e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.8996 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BEC_GND"
 		(shape input)
 		(at 222.25 30.48 0)
@@ -2346,6 +2408,28 @@
 	)
 	(global_label "BEC_GND"
 		(shape input)
+		(at 217.17 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a7d1363-5d94-48c4-9b7a-69275c55dd96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.6577 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BEC_GND"
+		(shape input)
 		(at 54.61 30.48 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2362,6 +2446,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BEC_GND"
+		(shape input)
+		(at 217.17 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "918feafc-b9d0-4768-beef-1824411f7847")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.6577 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BEC_OUT"
+		(shape input)
+		(at 217.17 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93a3878e-6baa-4c43-9c39-e76d13ca6036")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.8996 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2980,6 +3108,77 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
+		(at 224.79 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "620d3401-ed9e-4459-986a-f051c01c81bc")
+		(property "Reference" "J19"
+			(at 226.06 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Flight Controller Power"
+			(at 226.06 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-02P-1.25DS_1x02_P1.25mm_Horizontal"
+			(at 224.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 224.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d982751-d8e8-44fb-92b7-1d70bc620ac3")
+		)
+		(pin "2"
+			(uuid "f02ac6cb-43d0-440f-af82-49f24b4de459")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/9fb0086c-660e-4761-976f-d195fba4a9cc"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
 		(at 214.63 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3259,6 +3458,77 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/9fb0086c-660e-4761-976f-d195fba4a9cc"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 224.79 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5028bc5-333d-4129-9198-a2aa42b774fa")
+		(property "Reference" "J18"
+			(at 226.06 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESC Logic Power"
+			(at 226.06 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-02P-1.25DS_1x02_P1.25mm_Horizontal"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93ce82ff-5fe6-407e-a163-80405038b0ad")
+		)
+		(pin "2"
+			(uuid "7a4b37cf-b55d-4fec-a80e-3fcc321fab8e")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/9fb0086c-660e-4761-976f-d195fba4a9cc"
+					(reference "J18")
 					(unit 1)
 				)
 			)
