@@ -1334,26 +1334,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "S"
-		(exclude_from_sim no)
-		(at 257.302 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "07f055f8-94a0-4659-9da1-06f6640d8d34")
-	)
-	(text "S"
-		(exclude_from_sim no)
-		(at 257.302 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2861ad4f-6a5c-49a1-8e86-ea5f250b5480")
-	)
 	(text "Motor 2"
 		(exclude_from_sim no)
 		(at 21.082 18.542 0)
@@ -1374,16 +1354,6 @@
 		)
 		(uuid "81f3db30-ab11-4dbf-821e-15be4010529c")
 	)
-	(text "S"
-		(exclude_from_sim no)
-		(at 257.302 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c47e24a9-d450-47e0-b2f7-d4f3eb3095e4")
-	)
 	(text "X7R"
 		(exclude_from_sim no)
 		(at 91.186 39.37 0)
@@ -1395,22 +1365,10 @@
 		(uuid "f0ed1e40-8077-4e15-bcd3-d3ddb03d22a2")
 	)
 	(junction
-		(at 256.54 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08e032e7-4026-4d1f-a181-dd10450b1996")
-	)
-	(junction
 		(at 77.47 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1220935f-c135-4d0d-b32a-8f5f000807b2")
-	)
-	(junction
-		(at 220.98 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14e200f8-6a55-411c-a140-985ff2599b26")
 	)
 	(junction
 		(at 220.98 69.85)
@@ -1419,28 +1377,10 @@
 		(uuid "1c4486e8-fb71-4261-84ac-06fa0b81cc5b")
 	)
 	(junction
-		(at 207.01 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d54507d-cf7b-423c-b44a-de9c4239f5f1")
-	)
-	(junction
 		(at 133.35 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26c69fb5-ece6-44a9-91ca-6966cff65905")
-	)
-	(junction
-		(at 256.54 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fa1c9e2-a675-4740-9aa9-8309d36474d4")
-	)
-	(junction
-		(at 256.54 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4615f12e-3f8d-4912-ac36-46f15649af57")
 	)
 	(junction
 		(at 87.63 40.64)
@@ -1461,22 +1401,10 @@
 		(uuid "5ed6967b-f265-49ff-b80a-4af1df5acff8")
 	)
 	(junction
-		(at 256.54 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61e1f130-bb0e-457f-addd-f8d01f72fecb")
-	)
-	(junction
 		(at 133.35 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63c8e7ba-247d-4f4e-a2f4-1afb5a0c45a7")
-	)
-	(junction
-		(at 256.54 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6461c42a-3a6f-4063-9b3d-ce5f5611df27")
 	)
 	(junction
 		(at 77.47 40.64)
@@ -1485,34 +1413,10 @@
 		(uuid "649c9872-2831-4be6-84af-9c3d0752433b")
 	)
 	(junction
-		(at 207.01 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a09a6ed-472e-44d6-a6bf-141dd46eda2c")
-	)
-	(junction
-		(at 207.01 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81c4e6ea-1536-4fb6-af7c-9772eaff06a4")
-	)
-	(junction
-		(at 207.01 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a393c1d3-d100-4069-addc-50ed772f43eb")
-	)
-	(junction
 		(at 133.35 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa2773ec-62c1-4b25-a94f-f55bd60e6f43")
-	)
-	(junction
-		(at 256.54 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac5d9739-925d-414d-b015-f08c167c5fbe")
 	)
 	(junction
 		(at 220.98 34.29)
@@ -1527,22 +1431,10 @@
 		(uuid "e22c6973-2c25-41fd-b9a5-502815fe2881")
 	)
 	(junction
-		(at 207.01 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e75cf920-d222-4b4e-83d9-04a4193e2559")
-	)
-	(junction
 		(at 77.47 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec11f22d-c649-4ace-aa43-ab757bc7a47f")
-	)
-	(junction
-		(at 207.01 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f50ef1c4-4879-45eb-b19a-8cc6e28c3333")
 	)
 	(junction
 		(at 220.98 33.02)
@@ -1559,16 +1451,6 @@
 			(type default)
 		)
 		(uuid "04bb7e10-cdff-4f64-b6a9-281402637068")
-	)
-	(wire
-		(pts
-			(xy 248.92 40.64) (xy 248.92 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05ea8844-1c3c-4efc-999c-122fd502f538")
 	)
 	(wire
 		(pts
@@ -1602,16 +1484,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 59.69) (xy 242.57 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09dbf4e6-ee3b-40b9-8c08-43f10d950d09")
-	)
-	(wire
-		(pts
 			(xy 207.01 111.76) (xy 207.01 114.3)
 		)
 		(stroke
@@ -1629,16 +1501,6 @@
 			(type default)
 		)
 		(uuid "0b228e93-f760-424e-9cb7-7da5a4ceee0a")
-	)
-	(wire
-		(pts
-			(xy 242.57 129.54) (xy 207.01 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc35254-af78-4ff7-b42d-9f563cf330e1")
 	)
 	(wire
 		(pts
@@ -1702,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 102.87) (xy 256.54 102.87)
+			(xy 220.98 102.87) (xy 223.52 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1719,6 +1581,16 @@
 			(type default)
 		)
 		(uuid "13aef3c1-90bd-4dde-a8da-761280abebec")
+	)
+	(wire
+		(pts
+			(xy 203.2 114.3) (xy 207.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1640452c-3072-44a6-8881-0b0e1d3bf6e8")
 	)
 	(wire
 		(pts
@@ -1759,16 +1631,6 @@
 			(type default)
 		)
 		(uuid "1f5e19e8-01cc-4144-beea-5d612ab97c61")
-	)
-	(wire
-		(pts
-			(xy 256.54 48.26) (xy 256.54 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22e7bb17-e456-446e-9fcd-7a27e8e52fa7")
 	)
 	(wire
 		(pts
@@ -1822,26 +1684,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 72.39) (xy 256.54 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28b46e81-5e18-4bd7-8189-e9ee12a00ac6")
-	)
-	(wire
-		(pts
-			(xy 242.57 44.45) (xy 242.57 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d578d66-e6fb-4d35-a632-5569d7f8dd4b")
-	)
-	(wire
-		(pts
 			(xy 218.44 116.84) (xy 220.98 116.84)
 		)
 		(stroke
@@ -1862,16 +1704,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 45.72) (xy 220.98 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32380379-bd0c-4250-8f3b-bcb625573bcd")
-	)
-	(wire
-		(pts
 			(xy 203.2 83.82) (xy 207.01 83.82)
 		)
 		(stroke
@@ -1879,6 +1711,16 @@
 			(type default)
 		)
 		(uuid "32ac52df-4ff7-4ffc-925a-7caad66d02de")
+	)
+	(wire
+		(pts
+			(xy 203.2 129.54) (xy 207.01 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386bb519-1f98-40c9-80ae-e0d5ce8d06a1")
 	)
 	(wire
 		(pts
@@ -1942,16 +1784,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 129.54) (xy 207.01 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45b5326b-07e0-470e-ac0d-f9ddc15055e8")
-	)
-	(wire
-		(pts
 			(xy 135.89 33.02) (xy 133.35 33.02)
 		)
 		(stroke
@@ -1962,7 +1794,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 33.02) (xy 256.54 33.02)
+			(xy 220.98 33.02) (xy 223.52 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1979,16 +1811,6 @@
 			(type default)
 		)
 		(uuid "4a2e2dae-1d99-4380-9ec0-7e61fabcc6a5")
-	)
-	(wire
-		(pts
-			(xy 242.57 81.28) (xy 242.57 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a3b3037-85d1-4f32-88fe-e274998a490f")
 	)
 	(wire
 		(pts
@@ -2022,36 +1844,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 45.72) (xy 242.57 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "516e79e8-20bb-4c3f-923e-95063ea29fde")
-	)
-	(wire
-		(pts
-			(xy 256.54 33.02) (xy 256.54 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f0bb69-36d8-4586-895a-fffb67990e03")
-	)
-	(wire
-		(pts
-			(xy 220.98 85.09) (xy 256.54 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a28f30-5ccd-4fd2-b735-58c2a47e069a")
-	)
-	(wire
-		(pts
 			(xy 43.18 71.12) (xy 45.72 71.12)
 		)
 		(stroke
@@ -2062,7 +1854,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 44.45) (xy 207.01 45.72)
+			(xy 207.01 44.45) (xy 207.01 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2112,16 +1904,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 115.57) (xy 256.54 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d8e00ee-a1e8-49d3-842f-bd9fb3270bac")
-	)
-	(wire
-		(pts
 			(xy 133.35 33.02) (xy 133.35 35.56)
 		)
 		(stroke
@@ -2139,36 +1921,6 @@
 			(type default)
 		)
 		(uuid "5da60eb4-e63e-452d-9b87-40ac296b1263")
-	)
-	(wire
-		(pts
-			(xy 248.92 22.86) (xy 242.57 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fc834cd-7622-42ae-abb4-18508d2e3359")
-	)
-	(wire
-		(pts
-			(xy 203.2 114.3) (xy 207.01 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c77d77-6686-43a4-a909-c9113c3ecdc5")
-	)
-	(wire
-		(pts
-			(xy 242.57 22.86) (xy 242.57 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "659daff9-15b9-4eb1-9dd3-26b461c454b3")
 	)
 	(wire
 		(pts
@@ -2202,16 +1954,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 69.85) (xy 256.54 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ac3314-e9c8-4069-a763-2e37bc925e48")
-	)
-	(wire
-		(pts
 			(xy 135.89 120.65) (xy 133.35 120.65)
 		)
 		(stroke
@@ -2222,7 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 69.85) (xy 256.54 69.85)
+			(xy 220.98 69.85) (xy 223.52 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2252,16 +1994,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 69.85) (xy 256.54 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fcd2a89-886a-4910-83a6-32fbf793a100")
-	)
-	(wire
-		(pts
 			(xy 213.36 40.64) (xy 213.36 38.1)
 		)
 		(stroke
@@ -2272,16 +2004,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 76.2) (xy 242.57 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b1f7f8-23dd-490d-978a-db85de58ad87")
-	)
-	(wire
-		(pts
 			(xy 87.63 40.64) (xy 95.25 40.64)
 		)
 		(stroke
@@ -2289,36 +2011,6 @@
 			(type default)
 		)
 		(uuid "7597b9b1-0dbb-43e7-bf6d-9ba2b38c452a")
-	)
-	(wire
-		(pts
-			(xy 207.01 68.58) (xy 242.57 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77959c1a-de18-4edb-8e19-31d4fe51dbf3")
-	)
-	(wire
-		(pts
-			(xy 256.54 85.09) (xy 256.54 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78940fab-a29c-45c0-9b3b-4ab8178c45db")
-	)
-	(wire
-		(pts
-			(xy 242.57 83.82) (xy 207.01 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79465fe3-5d53-4d04-a849-16ab778697e8")
 	)
 	(wire
 		(pts
@@ -2362,36 +2054,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 31.75) (xy 242.57 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83ccca5b-d969-45c9-8044-094c4b62bc28")
-	)
-	(wire
-		(pts
-			(xy 248.92 77.47) (xy 248.92 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847255f6-2e3f-4f98-a09b-71a174ad1d03")
-	)
-	(wire
-		(pts
-			(xy 248.92 107.95) (xy 248.92 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84917637-f179-4191-8dc1-4782a611e379")
-	)
-	(wire
-		(pts
 			(xy 218.44 34.29) (xy 220.98 34.29)
 		)
 		(stroke
@@ -2429,16 +2091,6 @@
 			(type default)
 		)
 		(uuid "8c547fca-db00-4f3d-8b7c-7a0fa90e3ee3")
-	)
-	(wire
-		(pts
-			(xy 256.54 130.81) (xy 256.54 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dd3e615-4f88-4ef7-a83e-657961620735")
 	)
 	(wire
 		(pts
@@ -2502,16 +2154,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 74.93) (xy 242.57 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9726bcc7-98ab-406b-b511-1de87c0cf293")
-	)
-	(wire
-		(pts
 			(xy 76.2 63.5) (xy 78.74 63.5)
 		)
 		(stroke
@@ -2522,37 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 38.1) (xy 242.57 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ccce75-6d34-4314-88e2-091a755f0496")
-	)
-	(wire
-		(pts
-			(xy 248.92 120.65) (xy 242.57 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d349ce4-3ee1-41c9-b507-612d0391ad68")
-	)
-	(wire
-		(pts
-			(xy 242.57 66.04) (xy 242.57 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9edf7c30-19d1-4974-9ebf-f5a96839fab1")
-	)
-	(wire
-		(pts
-			(xy 220.98 57.15) (xy 256.54 57.15)
+			(xy 220.98 57.15) (xy 223.52 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2562,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 115.57) (xy 256.54 115.57)
+			(xy 220.98 115.57) (xy 223.52 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2592,17 +2204,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 130.81) (xy 259.08 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab9f6455-0925-4be6-a500-203424cc5aad")
-	)
-	(wire
-		(pts
-			(xy 256.54 85.09) (xy 259.08 85.09)
+			(xy 220.98 85.09) (xy 223.52 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2632,16 +2234,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 48.26) (xy 259.08 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2c9e5c8-25ec-449f-8128-66babc2d1638")
-	)
-	(wire
-		(pts
 			(xy 76.2 43.18) (xy 78.74 43.18)
 		)
 		(stroke
@@ -2649,36 +2241,6 @@
 			(type default)
 		)
 		(uuid "b4188871-669f-4b48-838f-646ac29419b8")
-	)
-	(wire
-		(pts
-			(xy 242.57 39.37) (xy 242.57 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b46332e8-c261-42b2-bff2-cfb1a35994c1")
-	)
-	(wire
-		(pts
-			(xy 248.92 123.19) (xy 248.92 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b48838b5-18a5-4e9e-9379-4ff439194bee")
-	)
-	(wire
-		(pts
-			(xy 248.92 105.41) (xy 242.57 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a01678-0ed5-4b74-b189-2082f995b015")
 	)
 	(wire
 		(pts
@@ -2692,16 +2254,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 115.57) (xy 256.54 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8658c38-4356-41a7-a0c8-b43493a50620")
-	)
-	(wire
-		(pts
 			(xy 213.36 22.86) (xy 207.01 22.86)
 		)
 		(stroke
@@ -2712,33 +2264,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 127) (xy 242.57 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb9317db-e603-4e9d-9904-b72fa6932e7d")
-	)
-	(wire
-		(pts
-			(xy 220.98 130.81) (xy 256.54 130.81)
+			(xy 220.98 130.81) (xy 223.52 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bd2bb671-9fe5-41a0-80e5-bb9a270d94d7")
-	)
-	(wire
-		(pts
-			(xy 248.92 59.69) (xy 242.57 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf191af0-3be1-4768-9b4d-76a743abf371")
 	)
 	(wire
 		(pts
@@ -2892,46 +2424,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 62.23) (xy 248.92 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d99e7fa3-28a3-4a3b-a711-5504247c372a")
-	)
-	(wire
-		(pts
-			(xy 256.54 35.56) (xy 256.54 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da974243-d375-4e2d-930d-2a182be3be32")
-	)
-	(wire
-		(pts
-			(xy 242.57 105.41) (xy 242.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de26dfaa-4b58-4bc3-b61b-5a163b32ba33")
-	)
-	(wire
-		(pts
-			(xy 256.54 33.02) (xy 259.08 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deeb762c-5781-4434-a302-ad08963e0181")
-	)
-	(wire
-		(pts
 			(xy 76.2 81.28) (xy 78.74 81.28)
 		)
 		(stroke
@@ -2942,33 +2434,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 111.76) (xy 242.57 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e37c781d-74c7-4cfb-b7a4-33b1d3e36729")
-	)
-	(wire
-		(pts
-			(xy 220.98 48.26) (xy 256.54 48.26)
+			(xy 220.98 48.26) (xy 223.52 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e3f1fea8-fb9e-40f8-8085-93c551cf9093")
-	)
-	(wire
-		(pts
-			(xy 207.01 45.72) (xy 207.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3fb678a-3c0d-47bf-86c6-a1beb22729cf")
 	)
 	(wire
 		(pts
@@ -3002,16 +2474,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 118.11) (xy 256.54 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efdf96f9-725b-4095-baa1-63da962f3b22")
-	)
-	(wire
-		(pts
 			(xy 220.98 69.85) (xy 220.98 67.31)
 		)
 		(stroke
@@ -3032,47 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 114.3) (xy 242.57 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5f5259f-6c16-45e0-889f-64c57efab3cf")
-	)
-	(wire
-		(pts
-			(xy 248.92 25.4) (xy 248.92 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9d2aea9-5c21-40f4-8f51-3229028bb6b6")
-	)
-	(wire
-		(pts
-			(xy 242.57 29.21) (xy 242.57 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fda6ecdc-89b0-4200-bdde-e2e6f656ef1f")
-	)
-	(wire
-		(pts
-			(xy 242.57 121.92) (xy 242.57 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde7b94c-ea75-460d-a0d0-15a042f7f06a")
-	)
-	(wire
-		(pts
-			(xy 220.98 20.32) (xy 256.54 20.32)
+			(xy 220.98 20.32) (xy 223.52 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +2658,7 @@
 	)
 	(global_label "ESC_M2_PHASE_3"
 		(shape input)
-		(at 259.08 115.57 0)
+		(at 223.52 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3246,7 +2668,7 @@
 		)
 		(uuid "2403769f-9d00-4870-a054-e02d10d795fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.7651 115.57 0)
+			(at 239.2051 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +2702,7 @@
 	)
 	(global_label "ESC_M2_PHASE_3_HIGH"
 		(shape input)
-		(at 203.2 129.54 180)
+		(at 203.2 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3290,7 +2712,7 @@
 		)
 		(uuid "255eee29-3bcc-4dbb-86a9-ec0b531de458")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.0115 129.54 0)
+			(at 182.0115 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3410,9 +2832,9 @@
 			)
 		)
 	)
-	(global_label "HBRIDGE_OUT"
+	(global_label "ESC_HBRIDGE_OUT"
 		(shape input)
-		(at 259.08 48.26 0)
+		(at 223.52 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3422,7 +2844,7 @@
 		)
 		(uuid "54502474-5d01-44ca-8223-dbbe2d9f0854")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.8257 48.26 0)
+			(at 239.2657 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,9 +2854,9 @@
 			)
 		)
 	)
-	(global_label "HBRIDGE_OUT"
+	(global_label "ESC_HBRIDGE_OUT"
 		(shape input)
-		(at 259.08 85.09 0)
+		(at 223.52 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3444,7 +2866,7 @@
 		)
 		(uuid "58757c4d-cc5c-47a6-a854-2e53cbc8ce6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.8257 85.09 0)
+			(at 239.2657 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,9 +2920,31 @@
 			)
 		)
 	)
+	(global_label "ESC_VBAT+"
+		(shape input)
+		(at 223.52 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7309935f-5c3e-4a5a-851b-a19eaa21ee58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.0885 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESC_M2_PHASE_2"
 		(shape input)
-		(at 259.08 69.85 0)
+		(at 223.52 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3510,7 +2954,7 @@
 		)
 		(uuid "747a62e2-08b0-49d0-941d-89a996b5dfc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.7651 69.85 0)
+			(at 239.2051 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,6 +3021,28 @@
 		(uuid "8cdb76d9-a0b9-4ee9-9488-a79fa8b7245b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 90.3732 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESC_VBAT+"
+		(shape input)
+		(at 223.52 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "905caa50-4086-4d7e-9069-f96a36b9577c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.0885 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,9 +3162,9 @@
 			)
 		)
 	)
-	(global_label "HBRIDGE_OUT"
+	(global_label "ESC_HBRIDGE_OUT"
 		(shape input)
-		(at 259.08 130.81 0)
+		(at 223.52 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3708,7 +3174,7 @@
 		)
 		(uuid "984c0dde-2c06-4490-af6b-c796dd7e32a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.8257 130.81 0)
+			(at 239.2657 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +3362,7 @@
 	)
 	(global_label "ESC_M2_PHASE_3_LOW"
 		(shape input)
-		(at 203.2 114.3 180)
+		(at 203.2 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3906,7 +3372,7 @@
 		)
 		(uuid "d80d9b9c-ca50-4cce-b8eb-a5652e83174a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.7373 114.3 0)
+			(at 182.7373 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,9 +3404,31 @@
 			)
 		)
 	)
+	(global_label "ESC_VBAT+"
+		(shape input)
+		(at 223.52 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eba3f24a-c3c4-44b4-8ec0-50b78342f25d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.0885 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESC_M2_PHASE_1"
 		(shape input)
-		(at 259.08 33.02 0)
+		(at 223.52 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3950,7 +3438,7 @@
 		)
 		(uuid "ee71d614-9830-49c3-bbc1-81fc7941b06e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.7651 33.02 0)
+			(at 239.2051 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,88 +3635,6 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
 					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:FDMS8350LET40")
-		(at 254 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "051adc86-44c0-42e2-a00b-2de6b97abd02")
-		(property "Reference" "Q25"
-			(at 260.35 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FDMS8350LET40"
-			(at 260.35 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 259.08 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMS8350LET40-D.pdf"
-			(at 259.08 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "49A Id, 40V Vds, N-Channel PowerTrench MOSFET, 0.85mOhm Ron, 242nC Qgmax, -55 to 175 °C, 5x6mm SON8"
-			(at 254 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4180ff6b-9abe-4a46-97c6-f972897dfb8f")
-		)
-		(pin "1"
-			(uuid "9fbcc91d-c43d-469c-bf9b-936dd3a14b52")
-		)
-		(pin "2"
-			(uuid "f818b2f0-8490-4ce0-99e9-9b7c5560a1a2")
-		)
-		(pin "4"
-			(uuid "626df943-af63-4b48-9173-2954ab99afea")
-		)
-		(pin "5"
-			(uuid "d68c7feb-7d68-4f43-b7bc-70219f7d6ff8")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "Q25")
 					(unit 1)
 				)
 			)
@@ -4901,77 +4307,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 242.57 63.5 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "434b3112-2b52-439a-8c76-05e40ed1ce0d")
-		(property "Reference" "R55"
-			(at 245.11 64.7701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 245.11 62.2301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 242.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5ea2383-f21a-40b8-b729-cd719608c8d7")
-		)
-		(pin "2"
-			(uuid "e3459560-4370-42fc-bea7-3ecf82d1ffb6")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:FDMS8350LET40")
 		(at 218.44 123.19 0)
 		(unit 1)
@@ -5054,77 +4389,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 242.57 109.22 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50566269-9b4b-42ba-a8f8-07f129ade188")
-		(property "Reference" "R57"
-			(at 245.11 110.4901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 245.11 107.9501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 242.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 242.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc8df7a1-8bee-4af1-84ac-1c9974d2a599")
-		)
-		(pin "2"
-			(uuid "e478e3a0-bff1-4f03-9184-51f0fb5fabd9")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BAS21")
 		(at 133.35 72.39 90)
 		(unit 1)
@@ -5198,77 +4462,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 242.57 41.91 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86bc38fa-dfee-427e-aeea-4cc9b52b4f7c")
-		(property "Reference" "R54"
-			(at 245.11 43.1801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 245.11 40.6401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 242.57 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 242.57 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3353c2dc-946e-4a07-9a49-ba15707ee78a")
-		)
-		(pin "2"
-			(uuid "61f8d931-69b7-4509-9061-1bc6762a4714")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 133.35 114.3 180)
 		(unit 1)
@@ -5333,312 +4526,6 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
 					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 242.57 124.46 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8957d9aa-9325-4824-a54e-c5c854276440")
-		(property "Reference" "R58"
-			(at 245.11 125.7301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 245.11 123.1901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 242.57 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 242.57 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89fd5d9b-d075-4836-b11d-508847c31a6a")
-		)
-		(pin "2"
-			(uuid "827f279f-ed9b-44ff-a8c3-abbf0fda9ad5")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:FDMS8350LET40")
-		(at 254 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e45f791-5947-482c-b198-95e684b94839")
-		(property "Reference" "Q22"
-			(at 260.35 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FDMS8350LET40"
-			(at 260.35 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 259.08 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMS8350LET40-D.pdf"
-			(at 259.08 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "49A Id, 40V Vds, N-Channel PowerTrench MOSFET, 0.85mOhm Ron, 242nC Qgmax, -55 to 175 °C, 5x6mm SON8"
-			(at 254 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d8a28d60-b8ce-4745-bcdb-7d40a1c7e42f")
-		)
-		(pin "1"
-			(uuid "c231e37f-90b3-4c4f-8a03-c834c592dd54")
-		)
-		(pin "2"
-			(uuid "b70c5ab2-bebf-4bfd-a3b6-66c058ed8bf8")
-		)
-		(pin "4"
-			(uuid "14914fa3-40e2-47f5-bae6-7f810353ba25")
-		)
-		(pin "5"
-			(uuid "08c2d62e-a136-4a94-835d-f71d285cf015")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "Q22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 242.57 78.74 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "956e268b-2630-49bd-b3fe-d6dc7ab7eb07")
-		(property "Reference" "R56"
-			(at 245.11 80.0101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 245.11 77.4701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 242.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 242.57 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "895a668c-8157-42ba-aedb-329af41d1fff")
-		)
-		(pin "2"
-			(uuid "4354b06c-9e28-4f14-bb6b-b82a88bc985a")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:FDMS8350LET40")
-		(at 254 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96c68960-1cca-470c-a7a5-1b640e34715f")
-		(property "Reference" "Q24"
-			(at 260.35 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FDMS8350LET40"
-			(at 260.35 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 259.08 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMS8350LET40-D.pdf"
-			(at 259.08 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "49A Id, 40V Vds, N-Channel PowerTrench MOSFET, 0.85mOhm Ron, 242nC Qgmax, -55 to 175 °C, 5x6mm SON8"
-			(at 254 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "33ab4528-0c25-4569-b351-09ec0e6c9edc")
-		)
-		(pin "1"
-			(uuid "19de7f56-b2fb-4e9f-92de-8702ce771646")
-		)
-		(pin "2"
-			(uuid "65a04709-3da8-4824-8ce0-b4a0df9049f6")
-		)
-		(pin "4"
-			(uuid "210aee1f-d900-4b19-98f2-65b0b6d6888e")
-		)
-		(pin "5"
-			(uuid "a76a2b5b-af79-46a7-8094-9d3e72405ffe")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -5945,77 +4832,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 242.57 26.67 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f19e797-0edd-4f8c-91ba-c70cb66bc76c")
-		(property "Reference" "R53"
-			(at 245.11 27.9401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 245.11 25.4001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 242.57 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 242.57 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74ab57d5-efc8-4c86-897f-634cac5615e9")
-		)
-		(pin "2"
-			(uuid "4e55d201-b103-4a86-901f-52a84a53434c")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
 		(at 207.01 78.74 0)
 		(mirror x)
 		(unit 1)
@@ -6228,170 +5044,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:FDMS8350LET40")
-		(at 254 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3c6b232-09bf-4b28-a4b6-05ef340b0ea8")
-		(property "Reference" "Q21"
-			(at 260.35 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FDMS8350LET40"
-			(at 260.35 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 259.08 27.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMS8350LET40-D.pdf"
-			(at 259.08 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "49A Id, 40V Vds, N-Channel PowerTrench MOSFET, 0.85mOhm Ron, 242nC Qgmax, -55 to 175 °C, 5x6mm SON8"
-			(at 254 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "020ba72c-03f3-4f02-b659-ed0ce548a0db")
-		)
-		(pin "1"
-			(uuid "7d4c684b-b336-43ff-b494-21d79dcb4ae5")
-		)
-		(pin "2"
-			(uuid "5a8ebd88-2f80-447d-bdc8-3ce3a5206bd3")
-		)
-		(pin "4"
-			(uuid "0df7bdf0-0906-422b-bcff-a7b7ac974004")
-		)
-		(pin "5"
-			(uuid "51e9f299-30b3-4c26-b679-8bf683ad85f8")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "Q21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:FDMS8350LET40")
-		(at 254 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3ac425d-7d48-4582-a12c-e681527727b3")
-		(property "Reference" "Q26"
-			(at 260.35 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FDMS8350LET40"
-			(at 260.35 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 259.08 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMS8350LET40-D.pdf"
-			(at 259.08 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "49A Id, 40V Vds, N-Channel PowerTrench MOSFET, 0.85mOhm Ron, 242nC Qgmax, -55 to 175 °C, 5x6mm SON8"
-			(at 254 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "89425c23-731e-4bdc-97c8-5442ffbd69ff")
-		)
-		(pin "1"
-			(uuid "1826b133-f8cb-4c03-8caa-73d4b16dcacf")
-		)
-		(pin "2"
-			(uuid "cf0790a1-efd6-4a8d-ba9a-8766268ca6c2")
-		)
-		(pin "4"
-			(uuid "bd1765c0-9c2f-4e2c-837a-f6fa04d170f8")
-		)
-		(pin "5"
-			(uuid "d364c413-ca2a-4ea2-94ea-1d0fa81f2b52")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "Q26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 207.01 63.5 0)
 		(mirror x)
@@ -6456,88 +5108,6 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
 					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:FDMS8350LET40")
-		(at 254 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0bc3adf-7296-4112-8f56-ee5b05a60e9c")
-		(property "Reference" "Q23"
-			(at 260.35 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FDMS8350LET40"
-			(at 260.35 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
-			(at 259.08 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDMS8350LET40-D.pdf"
-			(at 259.08 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "49A Id, 40V Vds, N-Channel PowerTrench MOSFET, 0.85mOhm Ron, 242nC Qgmax, -55 to 175 °C, 5x6mm SON8"
-			(at 254 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "376c7b33-5324-4cc7-a850-70c5905922bd")
-		)
-		(pin "1"
-			(uuid "cd206593-b336-4cca-b941-bb4144088b4f")
-		)
-		(pin "2"
-			(uuid "3f7b0ccf-48a1-4fc6-ba00-af325f079b1a")
-		)
-		(pin "4"
-			(uuid "b7dff0b3-f31d-4948-870d-fcbb417fe7d0")
-		)
-		(pin "5"
-			(uuid "6b370b7f-fab1-4c98-8b58-625c82b26ced")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3/149d8772-4fdd-46d4-8f15-937def88350e/4866549f-e5d6-4c48-bd5a-a5b37825d357"
-					(reference "Q23")
 					(unit 1)
 				)
 			)
