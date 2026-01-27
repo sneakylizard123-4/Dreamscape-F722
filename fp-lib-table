@@ -3,4 +3,6 @@
   (lib (name "customimages")(type "KiCad")(uri "${KIPRJMOD}/customimages")(options "")(descr ""))
   (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/BMI270")(options "")(descr ""))
   (lib (name "DPS310")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/DPS310")(options "")(descr ""))
+  (lib (name "FD6288Q")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/FD6288Q")(options "")(descr ""))
+  (lib (name "AO4435")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/AO4435")(options "")(descr ""))
 )

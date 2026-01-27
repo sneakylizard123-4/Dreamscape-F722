@@ -635,6 +635,34 @@
     [
       "9fb0086c-660e-4761-976f-d195fba4a9cc",
       "BEC"
+    ],
+    [
+      "149d8772-4fdd-46d4-8f15-937def88350e",
+      "ESC"
+    ],
+    [
+      "f70440a7-36a9-4217-a23f-b9293c43e98f",
+      "GPS"
+    ],
+    [
+      "36a94c75-36a8-448f-a6ca-e345a534184d",
+      "Sensors"
+    ],
+    [
+      "09fb4584-24d1-4a64-bc52-bb8b282586c8",
+      "ESC_Motor1"
+    ],
+    [
+      "4866549f-e5d6-4c48-bd5a-a5b37825d357",
+      "ESC_Motor2"
+    ],
+    [
+      "97f73806-70bd-4ab1-be98-b43082b35ec3",
+      "ESC_Motor3"
+    ],
+    [
+      "760b60e1-0e5c-4806-bbd3-d00cdd6ebf66",
+      "ESC_Motor4"
     ]
   ],
   "text_variables": {}
