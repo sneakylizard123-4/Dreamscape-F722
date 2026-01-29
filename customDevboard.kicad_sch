@@ -13936,7 +13936,7 @@
 		)
 	)
 	(sheet
-		(at 245.11 34.29)
+		(at 245.11 26.67)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13952,7 +13952,7 @@
 		)
 		(uuid "149d8772-4fdd-46d4-8f15-937def88350e")
 		(property "Sheetname" "ESC"
-			(at 245.11 33.5784 0)
+			(at 245.11 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13961,7 +13961,7 @@
 			)
 		)
 		(property "Sheetfile" "esc.kicad_sch"
-			(at 245.11 38.6846 0)
+			(at 245.11 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14015,90 +14015,6 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 245.11 25.4)
-		(size 15.24 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9fb0086c-660e-4761-976f-d195fba4a9cc")
-		(property "Sheetname" "BEC"
-			(at 245.11 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "bec.kicad_sch"
-			(at 245.11 29.7946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 245.11 43.18)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f70440a7-36a9-4217-a23f-b9293c43e98f")
-		(property "Sheetname" "GPS"
-			(at 245.11 42.4684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "gps.kicad_sch"
-			(at 245.11 47.5746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
-					(page "4")
 				)
 			)
 		)
