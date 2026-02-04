@@ -2,6 +2,5 @@
   (version 7)
   (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/BMI270/BMI270.kicad_sym")(options "")(descr ""))
   (lib (name "DPS310")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/DPS310/DPS310.kicad_sym")(options "")(descr ""))
-  (lib (name "FD6288Q")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/FD6288Q/FD6288Q.kicad_sym")(options "")(descr ""))
   (lib (name "AO4435")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/AO4435/AO4435.kicad_sym")(options "")(descr ""))
 )
