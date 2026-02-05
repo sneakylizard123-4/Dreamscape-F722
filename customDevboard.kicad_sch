@@ -6081,6 +6081,36 @@
 		)
 		(uuid "891d6a13-68aa-401d-bacd-6547aede1e54")
 	)
+	(text "to GPS and barometer"
+		(exclude_from_sim no)
+		(at 130.048 152.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98e828dc-b688-4629-b201-a89f8a1de768")
+	)
+	(text "For IMU"
+		(exclude_from_sim no)
+		(at 124.714 137.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a03073a1-68a3-4265-a614-68ffcd85fe6e")
+	)
+	(text "For IMU"
+		(exclude_from_sim no)
+		(at 122.682 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a36ba446-4698-4fda-be43-357b780e4ca1")
+	)
 	(text "SWCLK"
 		(exclude_from_sim no)
 		(at 244.856 37.084 0)
@@ -7265,7 +7295,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 140.97) (xy 127 140.97)
+			(xy 104.14 140.97) (xy 105.41 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8159,6 +8189,28 @@
 			)
 		)
 	)
+	(global_label "I2C1_SDA"
+		(shape bidirectional)
+		(at 218.44 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "058fc26a-725f-46e7-b335-3064890ff063")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.0452 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART2_TX"
 		(shape output)
 		(at 105.41 97.79 0)
@@ -8247,6 +8299,28 @@
 			)
 		)
 	)
+	(global_label "SPI1_MOSI"
+		(shape output)
+		(at 177.8 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "16e49146-eff3-4830-9f2f-ff771ab987ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.9572 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SYS_JTMS-SWDIO"
 		(shape input)
 		(at 255.27 31.75 0)
@@ -8260,6 +8334,50 @@
 		(uuid "1a5dc928-4e7c-4aac-8455-6ddf56722e9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.7651 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI3_MISO"
+		(shape input)
+		(at 177.8 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c9384d7-66b8-4237-8569-9d54d5c18364")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.9572 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART2_RX"
+		(shape input)
+		(at 218.44 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d86862a-ae4a-41f4-beaa-1a3a57a0396c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.948 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,6 +8493,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI2_MISO"
+		(shape input)
+		(at 177.8 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2530afc7-d276-4280-80b1-f3d159582c6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.9572 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8599,6 +8739,28 @@
 			)
 		)
 	)
+	(global_label "SPI1_MISO"
+		(shape input)
+		(at 177.8 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b63e159-ba43-477f-9670-c456ea9c834b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.9572 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART1_TX"
 		(shape output)
 		(at 224.79 33.02 180)
@@ -8753,6 +8915,28 @@
 			)
 		)
 	)
+	(global_label "SPI3_NSS"
+		(shape input)
+		(at 177.8 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5efe9177-4554-49a5-b02a-5271f8e2a824")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.8039 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PB4"
 		(shape input)
 		(at 260.35 52.07 90)
@@ -8876,6 +9060,50 @@
 		(uuid "6c745b22-736f-477f-abff-6f46c8dcddd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.7347 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART1_TX"
+		(shape output)
+		(at 218.44 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "706b237a-675b-46af-a9e8-60725c1fdeaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.6456 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART3_RX"
+		(shape input)
+		(at 218.44 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70a34d41-1665-4016-b871-0fa273c31b51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.948 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9149,6 +9377,28 @@
 			)
 		)
 	)
+	(global_label "USART2_TX"
+		(shape output)
+		(at 218.44 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94d05bb5-eeac-4b84-81d2-f26bc05a6d8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.6456 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART3_RX"
 		(shape input)
 		(at 105.41 163.83 0)
@@ -9162,6 +9412,28 @@
 		(uuid "9643c93b-315b-4061-aeb2-34efd0022234")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.918 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART1_RX"
+		(shape input)
+		(at 218.44 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b3a61ea-3253-4432-8ad4-89eb2e9bbd95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.948 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,6 +9531,28 @@
 			)
 		)
 	)
+	(global_label "SPI1_SCK"
+		(shape bidirectional)
+		(at 177.8 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a446fede-0239-4d06-89e2-088b56223976")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.6926 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PA15"
 		(shape input)
 		(at 127 130.81 0)
@@ -9347,6 +9641,28 @@
 			)
 		)
 	)
+	(global_label "I2C1_SCL"
+		(shape bidirectional)
+		(at 218.44 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa5f57ed-9045-4e0d-8cb3-17b3c308ba15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.9847 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PA0"
 		(shape input)
 		(at 127 92.71 0)
@@ -9369,6 +9685,28 @@
 			)
 		)
 	)
+	(global_label "SPI2_SCK"
+		(shape bidirectional)
+		(at 177.8 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b26fa217-ec0a-4a74-af42-f8098fb595b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.6926 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PA0"
 		(shape input)
 		(at 245.11 71.12 180)
@@ -9382,6 +9720,28 @@
 		(uuid "b30ace99-2281-4b29-9ed1-7815cd936545")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5567 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI3_MOSI"
+		(shape output)
+		(at 177.8 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b41c0bee-710e-43b2-95fa-ecfd4517541a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.9572 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,6 +9861,28 @@
 			)
 		)
 	)
+	(global_label "SPI3_SCK"
+		(shape bidirectional)
+		(at 177.8 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8815424-0b30-4eda-924f-e046068f5d8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.8039 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART1_TX"
 		(shape output)
 		(at 105.41 115.57 0)
@@ -9589,9 +9971,9 @@
 			)
 		)
 	)
-	(global_label "PB2"
+	(global_label "SPI3_MOSI"
 		(shape input)
-		(at 127 140.97 0)
+		(at 105.41 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9601,7 +9983,7 @@
 		)
 		(uuid "dff66d13-2c00-45f1-abda-4f4fc14090a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.7347 140.97 0)
+			(at 118.2528 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,6 +10037,28 @@
 			)
 		)
 	)
+	(global_label "SPI2_MOSI"
+		(shape output)
+		(at 177.8 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb3f5fb9-0cf1-404e-97e5-534e697d230a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.9572 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape bidirectional)
 		(at 267.97 146.05 0)
@@ -9699,6 +10103,28 @@
 			)
 		)
 	)
+	(global_label "USART3_TX"
+		(shape output)
+		(at 218.44 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2713d71-caa5-47d0-96ff-d342d0cb22f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.6456 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PD2"
 		(shape input)
 		(at 265.43 52.07 90)
@@ -9739,28 +10165,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PB2"
-		(shape input)
-		(at 267.97 82.55 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f541c6c0-516f-4190-b116-2f2e7b5003e7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.97 89.2847 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9981,6 +10385,72 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 182.88 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a70c3e9-8077-46b7-b7a1-6002e7b72b28")
+		(property "Reference" "J29"
+			(at 185.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PA5"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "580cc4a0-21ea-46e7-b1e8-e3f205a98c4b")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -10406,6 +10876,70 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
+		(at 213.36 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "189f0bd6-0afe-483b-b0cd-207ac2f6a0d3")
+		(property "Reference" "J41"
+			(at 204.724 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PA2"
+			(at 209.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "904fe932-3581-45d9-a840-4a4c531f9ac2")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
 		(at 271.78 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10533,6 +11067,70 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 213.36 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21005b1c-f272-4378-809d-dfbd2ab98b25")
+		(property "Reference" "J39"
+			(at 204.724 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PA9"
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cca032ee-9a9a-4b7d-b940-816b1ff4e3b5")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J39")
 					(unit 1)
 				)
 			)
@@ -10707,73 +11305,6 @@
 			(project ""
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 267.97 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2381ec45-057f-4b5f-9188-657177ee9254")
-		(property "Reference" "J27"
-			(at 270.51 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 270.51 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 267.97 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 267.97 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9570869a-609d-4821-9d14-2623916c8395")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
-					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -11246,6 +11777,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 182.88 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34aa1adb-bed1-48ea-b5cd-692deb836971")
+		(property "Reference" "J30"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PC1"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a4fb6aa-258d-4e0e-bf62-2d0ac813b784")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 182.88 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37ecaa3b-a669-44b4-8bfa-6210622c364f")
+		(property "Reference" "J34"
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PB2"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9217b46b-251e-4148-8562-e668b5b41011")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 167.64 38.1 0)
 		(unit 1)
@@ -11623,7 +12286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "PA1"
 			(at 252.73 74.9299 0)
 			(effects
 				(font
@@ -11666,6 +12329,72 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 182.88 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4811a187-d8f9-4d5a-8b4b-c842f39dbe64")
+		(property "Reference" "J27"
+			(at 185.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PA7"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa50a44b-5bc0-4e46-a4b3-6a48a0ba8dbd")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J27")
 					(unit 1)
 				)
 			)
@@ -11732,6 +12461,70 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 213.36 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49c5b14a-e8eb-4534-902a-35a21b66e822")
+		(property "Reference" "J40"
+			(at 204.724 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PA10"
+			(at 209.296 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "820e4629-01e4-42b1-9608-729f329d6a1c")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J40")
 					(unit 1)
 				)
 			)
@@ -12509,7 +13302,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 177.8 63.5 0)
+		(at 190.5 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -12518,7 +13311,7 @@
 		(fields_autoplaced yes)
 		(uuid "595049d8-0c4f-4f9a-90dd-58ee14bbbf6c")
 		(property "Reference" "H1"
-			(at 180.34 62.2299 0)
+			(at 193.04 19.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12527,7 +13320,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 180.34 64.7699 0)
+			(at 193.04 21.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12536,7 +13329,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 177.8 63.5 0)
+			(at 190.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12545,7 +13338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 63.5 0)
+			(at 190.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12554,7 +13347,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 177.8 63.5 0)
+			(at 190.5 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13330,6 +14123,70 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 213.36 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78c3f930-75f0-480a-9fa0-ab9f775822fc")
+		(property "Reference" "J43"
+			(at 204.724 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PB10"
+			(at 209.296 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8127c8a3-42aa-420b-bcde-7bd46d014280")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J43")
 					(unit 1)
 				)
 			)
@@ -14224,7 +15081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
+		(property "Value" "PA0"
 			(at 252.73 72.3899 0)
 			(effects
 				(font
@@ -14267,6 +15124,72 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 182.88 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93cd3cbb-08f1-4efe-b14e-97a59f7790d6")
+		(property "Reference" "J36"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PC10"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e3c755a-3283-41f4-9c4d-25e7536c50a4")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J36")
 					(unit 1)
 				)
 			)
@@ -14409,6 +15332,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 213.36 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9901ace5-886f-4657-ad41-677a89035fbf")
+		(property "Reference" "J42"
+			(at 204.724 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PA3"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ff9cac0-42b2-46a0-8bb7-577710a19088")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 35.56 67.31 0)
 		(unit 1)
@@ -14472,6 +15459,70 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 213.36 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99690fdc-5add-4878-af13-730be0d2e0b3")
+		(property "Reference" "J37"
+			(at 204.724 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PB6"
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4860f27e-10d3-409b-a575-fe06eceb89d1")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J37")
 					(unit 1)
 				)
 			)
@@ -14606,6 +15657,72 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 182.88 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6d48a77-1080-4d09-b2eb-b91a569d32a1")
+		(property "Reference" "J35"
+			(at 185.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PC11"
+			(at 190.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e497ae7-a695-4ee1-8de4-ead4320ff6ea")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J35")
 					(unit 1)
 				)
 			)
@@ -14748,7 +15865,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 177.8 73.66 0)
+		(at 190.5 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14757,7 +15874,7 @@
 		(fields_autoplaced yes)
 		(uuid "afe23e96-9db7-4429-a8d8-99cc1d529517")
 		(property "Reference" "H3"
-			(at 180.34 72.3899 0)
+			(at 193.04 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14766,7 +15883,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 180.34 74.9299 0)
+			(at 193.04 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +15892,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 177.8 73.66 0)
+			(at 190.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14784,7 +15901,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 73.66 0)
+			(at 190.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14793,7 +15910,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 177.8 73.66 0)
+			(at 190.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15147,6 +16264,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 213.36 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb098a3b-e226-4d93-951c-f7f9e206d366")
+		(property "Reference" "J44"
+			(at 204.724 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PB11"
+			(at 209.296 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "956a046c-e001-4e05-8fae-fcdafe5c7b31")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 173.99 26.67 0)
 		(unit 1)
@@ -15344,6 +16525,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 213.36 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c42e8d03-708c-46ff-9f69-3113360d8c29")
+		(property "Reference" "J38"
+			(at 204.724 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PB7"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27d53529-2032-48b3-86f2-e2079d19b0fa")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 24.13 97.79 0)
 		(unit 1)
@@ -15411,7 +16656,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 177.8 78.74 0)
+		(at 190.5 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15420,7 +16665,7 @@
 		(fields_autoplaced yes)
 		(uuid "c778e0e2-c4e8-4889-b758-e1831bcad421")
 		(property "Reference" "H4"
-			(at 180.34 77.4699 0)
+			(at 193.04 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15429,7 +16674,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 180.34 80.0099 0)
+			(at 193.04 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15438,7 +16683,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 177.8 78.74 0)
+			(at 190.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15447,7 +16692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 78.74 0)
+			(at 190.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15456,7 +16701,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 177.8 78.74 0)
+			(at 190.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15535,6 +16780,138 @@
 			(project "customDevboard"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 182.88 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb5a24c4-b338-4a63-a017-894aa871a705")
+		(property "Reference" "J28"
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PA6"
+			(at 190.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 182.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b105993-05e9-4123-847e-67f6836e3fc4")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 182.88 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf09ee37-2b9f-447c-abc2-79cd248f4cb6")
+		(property "Reference" "J32"
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PB13"
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eed6ec61-c516-4ea7-b8aa-3ca55399b8c1")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J32")
 					(unit 1)
 				)
 			)
@@ -16493,6 +17870,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 182.88 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2d0f11c-408e-4d52-bc2e-c3a53f508421")
+		(property "Reference" "J33"
+			(at 185.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PA4"
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 182.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6670ff6f-5c50-46b1-b618-592502165a28")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 182.88 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2f2a508-a216-42c6-b1ec-7946d1a61698")
+		(property "Reference" "J31"
+			(at 185.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PC11"
+			(at 190.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edfc676b-04db-4010-962d-475bcaf2f0ce")
+		)
+		(instances
+			(project "customDevboard"
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "J31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 157.48 0)
 		(unit 1)
@@ -16759,7 +18268,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 177.8 68.58 0)
+		(at 190.5 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -16768,7 +18277,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbce100c-0dc0-4cd6-99d3-1b245f54323c")
 		(property "Reference" "H2"
-			(at 180.34 67.3099 0)
+			(at 193.04 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16777,7 +18286,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 180.34 69.8499 0)
+			(at 193.04 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16786,7 +18295,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 177.8 68.58 0)
+			(at 190.5 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16795,7 +18304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 68.58 0)
+			(at 190.5 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16804,7 +18313,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 177.8 68.58 0)
+			(at 190.5 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

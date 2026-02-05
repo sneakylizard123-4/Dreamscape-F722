@@ -5,7 +5,7 @@ A Custom Devboard made with the RP2040 microcontroller in 30x30 flight controlle
 
 # Schematics & PCB view
 ![Schematic](images/schematic.png)
-![Schematic](images/pcb.png)
+![PCB](images/pcb.png)
 
 # prices
 ![Cart](images/cart.png)
