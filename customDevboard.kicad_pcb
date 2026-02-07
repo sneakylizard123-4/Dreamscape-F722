@@ -19994,19 +19994,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RST"
-		(at 58 45 0)
-		(layer "F.SilkS")
-		(uuid "a020139f-97a4-4c9e-9547-526dcb03d85b")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "+5V"
 		(at 44.25 41 0)
 		(layer "F.SilkS")
