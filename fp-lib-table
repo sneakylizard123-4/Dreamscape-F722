@@ -4,4 +4,5 @@
   (lib (name "BMI270")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/BMI270")(options "")(descr ""))
   (lib (name "DPS310")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/DPS310")(options "")(descr ""))
   (lib (name "AO4435")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/AO4435")(options "")(descr ""))
+  (lib (name "ICM_42688_P")(type "KiCad")(uri "${KIPRJMOD}/ImportedParts/ICM_42688_P")(options "")(descr ""))
 )
