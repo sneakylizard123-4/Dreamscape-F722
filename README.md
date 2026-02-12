@@ -1,8 +1,8 @@
 # Dreamscape F722
 A Custom Flight Controller made with the STM32 F722 microcontroller in 30x30 flight controller size
-
-# Firmware
-Betaflight, see firmware/betaflight/betaflight
+- IMU: ICM-42688-P
+- Barometer: BMP280
+- Firmware: Betaflight
 
 # Blender Render:
 ![BlenderRender](blender/Untitled.png)
