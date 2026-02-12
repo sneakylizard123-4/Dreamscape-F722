@@ -5783,6 +5783,16 @@
 		)
 		(uuid "5017c30b-550d-49c4-994c-c4e8f0f1118d")
 	)
+	(text "Dreamscape F722"
+		(exclude_from_sim no)
+		(at 195.326 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d69dcb7-1299-4463-af26-0d0e4159870d")
+	)
 	(text "Pull High for\nDFU / Bootloader"
 		(exclude_from_sim no)
 		(at 53.34 95.758 0)
