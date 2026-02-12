@@ -1151,7 +1151,7 @@
 			(at -0.176 -2.0048 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e7f4aa98-5cca-4d2b-9da3-6353bdb96673")
+			(uuid "e53b6bd5-834a-4871-ad2b-e6588a6c20f2")
 			(effects
 				(font
 					(size 0.48 0.48)
@@ -1162,7 +1162,7 @@
 		(property "Value" "ICM-42688-P"
 			(at 4.7008 1.9952 90)
 			(layer "F.Fab")
-			(uuid "6783707f-89bc-4399-8477-9461fbf915b6")
+			(uuid "fe225d10-0e29-4c32-a058-5c07d88d2fa4")
 			(effects
 				(font
 					(size 0.48 0.48)
@@ -1174,7 +1174,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e05c961-538a-4127-b979-e4a3aaf449d2")
+			(uuid "6ec95af8-cfc7-4d0c-b4a3-29cd531f4601")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1186,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73e72471-d4db-40f2-a8bd-53f339d7df37")
+			(uuid "f531b2aa-559d-400e-b4d5-23df938e104e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,6 +1982,17 @@
 			(uuid "e45e4c59-5dec-426d-809c-3acd725a2276")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/ICM-42688-P/ICM-42688-P.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
