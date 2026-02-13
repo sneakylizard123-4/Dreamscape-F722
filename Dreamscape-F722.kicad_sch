@@ -18741,7 +18741,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "customDevboard_Sensors.kicad_sch"
+		(property "Sheetfile" "Dreamscape-F722_Sensors.kicad_sch"
 			(at 245.11 20.9046 0)
 			(effects
 				(font
@@ -18750,8 +18750,17 @@
 				(justify left top)
 			)
 		)
+		(property "Field2" ""
+			(at 245.11 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
-			(project "customDevboard"
+			(project "Dreamscape-F722"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(page "5")
 				)
