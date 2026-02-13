@@ -19,4 +19,11 @@ make DREAMSCAPEF722
 ![PDF](images/Schematic.pdf)
 
 # prices
-![Cart](images/cart.png)
+![Cart](images/jlcpcb/jlcpcb_cart.png)
+# LCSC (Hand Soldering)
+![LCSC1](images/jlcpcb/lcsc_1.png)
+![LCSC2](images/jlcpcb/lcsc_2.png)
+![LCSC3](images/jlcpcb/lcsc_3.png)
+![LCSC4](images/jlcpcb/lcsc_4.png)
+![LCSC5](images/jlcpcb/lcsc_5.png)
+![LCSC6](images/jlcpcb/lcsc_6.png)
