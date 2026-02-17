@@ -5,9 +5,11 @@ A Custom Flight Controller made with the STM32 F722 microcontroller in 30x30 fli
 - Firmware: Betaflight
 
 # Firmware Building
+````bash
 cd ~/KicadProjects/Dreamscape-F722/firmware/betaflight/betaflight
 make configs
 make DREAMSCAPEF722
+````
 
 # Blender Render:
 ![BlenderRender](blender/Untitled.png)
