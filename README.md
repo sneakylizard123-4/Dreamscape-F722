@@ -11,6 +11,7 @@ make DREAMSCAPEF722
 
 # Blender Render:
 ![BlenderRender](blender/Untitled.png)
+![Purple](blender/Purple.png)
 
 # Schematics & PCB view
 ![Schematic](images/Schematic.jpg)
