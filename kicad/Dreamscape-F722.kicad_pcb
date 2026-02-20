@@ -142,7 +142,7 @@
 	)
 	(net 0 "")
 	(net 1 "GND")
-	(net 2 "VBUS")
+	(net 2 "Net-(D3-A)")
 	(net 3 "+3.3VA")
 	(net 4 "+3.3V")
 	(net 5 "+5V")
@@ -224,6 +224,7 @@
 	(net 81 "unconnected-(U2-NC-Pad2)")
 	(net 82 "unconnected-(U5-SDO-Pad5)")
 	(net 83 "unconnected-(U5-CSB-Pad2)")
+	(net 84 "Net-(D4-A)")
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "01fe1006-0d21-4b0a-b4cf-c3fd99d1b7f3")
@@ -280,7 +281,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f25db521-1ec7-4c12-84d8-abf2d832d430")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -434,7 +435,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/46717daa-720b-4c2f-b024-eeb553ccbbd2")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.26 -0.86)
@@ -602,7 +603,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a5917fc4-219e-41c6-b088-0a7754d40196")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -705,7 +706,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6f30beac-0cd4-4d46-b883-7bd715b4391e")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -849,7 +850,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4811a187-d8f9-4d5a-8b4b-c842f39dbe64")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -954,7 +955,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0a70c3e9-8077-46b7-b7a1-6002e7b72b28")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -1057,7 +1058,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/626e992d-be6d-452a-ac12-d38a1a016ee0")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -1248,7 +1249,7 @@
 		)
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/b234b688-feef-4780-bc2d-5805a7feb102")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(clearance 0.1)
 		(attr smd)
 		(fp_poly
@@ -1858,7 +1859,7 @@
 			(roundrect_rratio 0.25)
 			(net 62 "unconnected-(U4-RESV_2-Pad2)")
 			(pinfunction "RESV_2")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "49328dfd-d019-47a3-9585-04862dae84f1")
 		)
 		(pad "3" smd roundrect
@@ -1868,7 +1869,7 @@
 			(roundrect_rratio 0.25)
 			(net 63 "unconnected-(U4-RESV_3-Pad3)")
 			(pinfunction "RESV_3")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8e35141a-c52d-4772-bd36-f9517501463a")
 		)
 		(pad "4" smd roundrect
@@ -1908,7 +1909,7 @@
 			(roundrect_rratio 0.25)
 			(net 61 "unconnected-(U4-RESV_7-Pad7)")
 			(pinfunction "RESV_7")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "35a8b80b-1adf-464b-b450-ac11693ae048")
 		)
 		(pad "8" smd roundrect
@@ -1938,7 +1939,7 @@
 			(roundrect_rratio 0.25)
 			(net 59 "unconnected-(U4-RESV_10-Pad10)")
 			(pinfunction "RESV_10")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7236aa91-3467-4d20-acc8-41b5426658b5")
 		)
 		(pad "11" smd roundrect
@@ -1948,7 +1949,7 @@
 			(roundrect_rratio 0.25)
 			(net 60 "unconnected-(U4-RESV_11-Pad11)")
 			(pinfunction "RESV_11")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "e5be82bd-e11c-4e6f-a746-a4f250228328")
 		)
 		(pad "12" smd roundrect
@@ -2049,7 +2050,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/64945bd9-62cf-4289-8e86-da24491e9dae")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -2193,7 +2194,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/930d8d21-a358-4ca3-a8d3-7f794eb64949")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -2298,7 +2299,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/189f0bd6-0afe-483b-b0cd-207ac2f6a0d3")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -2401,7 +2402,7 @@
 		(property ki_fp_filters "LQFP*10x10mm*P0.5mm*")
 		(path "/92e2dc71-3575-4775-b0e1-046a997daa6f")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -5.11 -5.11)
@@ -3429,7 +3430,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cf1f0795-ccd6-4f85-a908-2c973616429b")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -3534,7 +3535,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d593406e-58b0-4c01-9194-86be4bc8bea2")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -3639,7 +3640,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/37ecaa3b-a669-44b4-8bfa-6210622c364f")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -3744,7 +3745,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f2f2a508-a216-42c6-b1ec-7946d1a61698")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -3849,7 +3850,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/49c5b14a-e8eb-4534-902a-35a21b66e822")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -3952,7 +3953,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/af04a71c-2752-47f3-9447-6f4ca512d2da")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -4096,7 +4097,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9901ace5-886f-4657-ad41-677a89035fbf")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -4199,7 +4200,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6b7ae4f5-999c-413c-aa9e-df365fee0d00")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -4343,7 +4344,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/18e3bcdf-65f8-4e80-abdf-a58e7b4c91e9")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -4446,7 +4447,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/a752c876-30e7-485a-884c-ebbfc353025f")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -4588,7 +4589,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/c778e0e2-c4e8-4889-b758-e1831bcad421")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -4688,7 +4689,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/574d2ae7-40bb-4588-a110-17a87cf68277")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -4830,7 +4831,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/595049d8-0c4f-4f9a-90dd-58ee14bbbf6c")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -4932,7 +4933,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/caf2297f-f9eb-44fb-8505-8d6679312e27")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -5035,7 +5036,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8d1be685-447b-433e-a6a3-3a78b31d2ad0")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -5179,7 +5180,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/11558faa-12c2-47cd-897c-22df30facc5b")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -5284,7 +5285,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a6d48a77-1080-4d09-b2eb-b91a569d32a1")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -5389,7 +5390,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/463ee2ba-2c0b-4bea-8588-45338722de38")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -5494,7 +5495,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cf09ee37-2b9f-447c-abc2-79cd248f4cb6")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -5597,7 +5598,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d2540a25-da01-4167-bf86-bbdea0299902")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 0.36)
@@ -5741,7 +5742,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/22256856-7fcb-4a2f-bb9e-a2d5ea62bb6c")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -5844,7 +5845,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/572a6063-fe4c-42d1-984b-dad4a36974b1")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 0.36)
@@ -5988,7 +5989,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c1e19aa7-4547-4cd2-8cc2-a64484d26c32")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -6091,7 +6092,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/b1da087b-6084-4dbf-ac39-4e6703f35bc2")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 0.36)
@@ -6347,7 +6348,7 @@
 		)
 		(path "/4e0966ed-2725-4f37-a918-32af34a544b3")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.3 0.3)
@@ -6563,7 +6564,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/03089c41-92c3-4c9c-a841-b2cb88250ad5")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -6707,7 +6708,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/bb098a3b-e226-4d93-951c-f7f9e206d366")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -6810,7 +6811,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/c142970b-314b-4bea-a21c-067f18a55d5e")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 0.36)
@@ -6952,7 +6953,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/c01d7ead-f22b-4949-a5d6-c7c2e0dc214b")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -7096,7 +7097,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/55e0c336-c666-418f-9992-f514ceb5ab96")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -7199,7 +7200,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/fbce100c-0dc0-4cd6-99d3-1b245f54323c")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -8110,7 +8111,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/deec698e-5dd5-4995-bcc1-8d8ef6d6056e")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.06 1.71)
@@ -8275,7 +8276,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/97ad0cc5-b8bc-4d1b-adec-026c75d8578c")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -8531,7 +8532,7 @@
 		)
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/fb4ff34f-73a9-402d-bb77-3415e866b979")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.3 0.3)
@@ -8749,7 +8750,7 @@
 		(property ki_fp_filters "Bosch*LGA*2x2.5mm*P0.65mm*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/f9362581-9821-420c-b7f1-7bb8598871b2")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.35 -0.46)
@@ -9075,7 +9076,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e09732de-0766-4df1-98e3-b42985fbd67a")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -9217,7 +9218,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/43ce080f-8c64-48eb-bba5-d8d167781c89")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 0.38)
@@ -9372,7 +9373,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6854be3b-9f8e-421f-8700-9501131bc7fa")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -9509,6 +9510,279 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_SMA"
+		(layer "F.Cu")
+		(uuid "8420506f-6b2b-40c3-b542-07a129caaa20")
+		(at 77.5 60.75)
+		(descr "Diode SMA (DO-214AC)")
+		(tags "Diode SMA (DO-214AC)")
+		(property "Reference" "D3"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "8859db57-d19c-46c6-8cfd-2a67a9191885")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 0 2.6 0)
+			(layer "F.Fab")
+			(uuid "c7cb7227-c37d-44bf-b3bb-e5246e8c0b71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "688358c4-c90c-470e-a493-bfbb061f087c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30c17bd1-b807-41b0-8f49-451ac9fb6839")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*SMA*")
+		(path "/8f5df3c7-f691-46d9-8d92-82ba9041dcd3")
+		(sheetname "/")
+		(sheetfile "Dreamscape-F722.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.51 -1.65)
+			(end -3.51 1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04e67ebe-8fd6-46e8-a346-a36d64086f04")
+		)
+		(fp_line
+			(start -3.51 -1.65)
+			(end 2 -1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef1d8108-09ad-4ca3-8114-02bc693df144")
+		)
+		(fp_line
+			(start -3.51 1.65)
+			(end 2 1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bb43ff30-2b2e-46af-832b-b78ab3a5ea24")
+		)
+		(fp_line
+			(start -3.5 -1.75)
+			(end 3.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "58b38538-fb24-42ff-9661-215bf94a7010")
+		)
+		(fp_line
+			(start -3.5 1.75)
+			(end -3.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "75e64088-ae00-4466-b8b1-cdfbbfbe58c1")
+		)
+		(fp_line
+			(start 3.5 -1.75)
+			(end 3.5 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0d74a98d-034d-4089-a802-86270dcb3e71")
+		)
+		(fp_line
+			(start 3.5 1.75)
+			(end -3.5 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "22e0a980-f11b-49b9-8c2c-83ce7d8b6406")
+		)
+		(fp_line
+			(start -2.3 1.5)
+			(end -2.3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "98bf5a9f-8690-45cd-b77b-2d085b58f7ac")
+		)
+		(fp_line
+			(start -0.64944 -0.79908)
+			(end -0.64944 0.80112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a835956-3696-4296-9e23-45f2f628ab96")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end -1.55114 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0d3e67ca-4229-4736-af96-50832c563fdb")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8626afa9-7797-4adb-ab6e-fad721c5f37d")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 0.75032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f38102f7-655b-49b8-ac28-ad07f7297fe9")
+		)
+		(fp_line
+			(start 0.50118 0.00102)
+			(end 1.4994 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5a26f432-4312-41e7-80b2-86538c6c18b0")
+		)
+		(fp_line
+			(start 0.50118 0.75032)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0d568fa6-3259-4f12-9517-74970793cd1a")
+		)
+		(fp_line
+			(start 2.3 -1.5)
+			(end -2.3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6991641f-03bb-48b2-a2c3-a7d3629bb8d2")
+		)
+		(fp_line
+			(start 2.3 -1.5)
+			(end 2.3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1416f4f4-4682-489e-a382-b983093b2160")
+		)
+		(fp_line
+			(start 2.3 1.5)
+			(end -2.3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "922b33f1-2884-46c9-a6b4-0d052098dd62")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "81c59563-3be5-4e6b-983d-ff64a421789b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2 0)
+			(size 2.5 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net 5 "+5V")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "7405be0d-6a74-49aa-a354-e6b66c0df14e")
+		)
+		(pad "2" smd roundrect
+			(at 2 0)
+			(size 2.5 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net 2 "Net-(D3-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "a94ce265-324c-4da1-9603-59ebcc5ce9f5")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "85bfa375-f0bf-403c-b369-ab6b45a56fdb")
@@ -9565,7 +9839,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/6ad99290-0b2e-4478-adc0-619339475e72")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -9707,7 +9981,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/324985f0-7c27-4a5d-92a2-e3d495962ccb")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -9849,7 +10123,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/acd08704-ba83-4cd2-901e-042cc7b26655")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -9993,7 +10267,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/21005b1c-f272-4378-809d-dfbd2ab98b25")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -10096,7 +10370,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/29f041c5-8ef0-4b0d-ac4a-f7614c08f53b")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -10240,7 +10514,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fbaf539e-b70e-4c3c-9fad-88705089ff41")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -10343,7 +10617,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/13587e56-865d-43d9-a4e9-e8066be29979")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 0.36)
@@ -10487,7 +10761,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/99690fdc-5add-4878-af13-730be0d2e0b3")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -10590,7 +10864,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b0c8540e-2d62-486e-b51a-2b878e6876c2")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -10734,7 +11008,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7e434d40-7fb9-47c5-a07d-f25240ea03e0")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -10836,7 +11110,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e4432d01-e8c1-4098-b88d-6fd2c6985d22")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 -0.38)
@@ -10979,7 +11253,7 @@
 		)
 		(path "/9c290790-e618-46d3-8a15-68ce6d5b70ee")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.65 -1.4)
@@ -11359,7 +11633,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4d68f7ec-c702-4b64-9bd8-570bb681e5c8")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -0.3 2.1)
@@ -11756,7 +12030,7 @@
 		(property ki_fp_filters "WSON*1EP*2x2mm*P0.65mm*")
 		(path "/1616deaa-85a8-41ba-975e-c33f10b88647")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.699252 -1.11)
@@ -12087,7 +12361,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/88be8398-b877-4124-b8df-7dd87c196ed5")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -12231,7 +12505,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/93cd3cbb-08f1-4efe-b14e-97a59f7790d6")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -12334,7 +12608,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/25735218-d287-4204-b9e3-0d4561b0e372")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 0.36)
@@ -12476,7 +12750,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/2dadfd6b-2164-4759-aa7c-cd5a8cfff305")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -12620,7 +12894,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f2d0f11c-408e-4d52-bc2e-c3a53f508421")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -12723,7 +12997,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/afe23e96-9db7-4429-a8d8-99cc1d529517")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -12825,7 +13099,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/44d6ab79-dd67-4506-85eb-c671eb8b399a")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -12930,7 +13204,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b132e6a1-1b80-40de-bba5-4482519e9714")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -13033,7 +13307,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/b338c5ea-047e-4ffc-8991-00d925bd41bc")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -13177,7 +13451,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/81ca53c9-f8d6-4417-b9fd-0cd553c77736")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -13282,7 +13556,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6bc76731-b77b-4777-9eed-9f77463c23a4")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -13387,7 +13661,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/78c3f930-75f0-480a-9fa0-ab9f775822fc")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -13490,7 +13764,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/8245ae1c-59c3-4a21-b0bf-dfb4ad502f77")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -13634,7 +13908,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b8dcb4bc-b3bf-4f78-a190-b308973c2c17")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -13674,7 +13948,7 @@
 			(size 1 2)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 5 "+5V")
+			(net 2 "Net-(D3-A)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "fa34f11a-f207-485d-a0b7-efada4da00fd")
@@ -13739,7 +14013,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d7e3870b-9500-4a83-97a0-e3acede34db3")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -13842,7 +14116,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e36eaa2e-69de-426a-bf58-83731abe3153")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -13986,7 +14260,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/22c7fccc-14f7-4367-aa81-34dd0b3a1e39")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.7 -1.9)
@@ -14156,7 +14430,7 @@
 			(at -2.45 -4.045 90)
 			(size 0.6 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "VBUS")
+			(net 84 "Net-(D4-A)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "3e01db74-6fbe-4d99-afe1-32550a5cf20a")
@@ -14198,7 +14472,7 @@
 			(at 2.45 -4.045 90)
 			(size 0.6 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "VBUS")
+			(net 84 "Net-(D4-A)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "e50cfa35-7a76-4c62-92ed-7e9ed0d1dfea")
@@ -14225,7 +14499,7 @@
 			(at 2.45 -4.045 90)
 			(size 0.6 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "VBUS")
+			(net 84 "Net-(D4-A)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "62804400-0a8b-4d79-9b69-3e48b42d421f")
@@ -14267,7 +14541,7 @@
 			(at -2.45 -4.045 90)
 			(size 0.6 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 2 "VBUS")
+			(net 84 "Net-(D4-A)")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "3c66378b-b4b0-410c-9e7b-7cecb543ffb0")
@@ -14411,7 +14685,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cf8c97e9-db0c-416f-bc45-b3dd844e2ca1")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -14514,7 +14788,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/205ae639-fd25-446c-8ee0-f9d09a7be939")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -14657,7 +14931,7 @@
 		)
 		(path "/ded41b8f-7768-4ced-9dfd-2f7bcb014afb")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.65 1.4)
@@ -15037,7 +15311,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ac723655-589d-4c86-8c66-a1c68fa104e5")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -15179,7 +15453,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/cc79c2f5-11b6-46bb-91ca-e287452cff35")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 0.36)
@@ -15321,7 +15595,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/d2809fbc-1fc6-41a9-8dfd-a854c2dfe3db")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 0.36)
@@ -15487,7 +15761,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/4463caef-40dd-4427-a64d-906bd931238c")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.825 -1.375)
@@ -15801,7 +16075,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cb5a24c4-b338-4a63-a017-894aa871a705")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -15917,7 +16191,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/66b8d818-13df-4bc4-9568-e3f2061f5b6d")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -16110,7 +16384,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/606aa614-b728-4e8b-92f9-6fc8dc955890")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -16252,7 +16526,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ef7bd43a-3bd0-4990-bd20-811cf800e5a2")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -16396,7 +16670,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/573071bf-b56a-4f48-99f4-0309163c790f")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -16501,7 +16775,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e27d3e18-dfe9-4c41-a4a9-d6f9f0efb6a6")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -16604,7 +16878,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/965e35e7-be49-4bc8-aaf9-02833b62c8a6")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.167621 0.38)
@@ -16748,7 +17022,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/93964537-6646-4f67-b9c4-19adb77ee5b9")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -16853,7 +17127,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c42e8d03-708c-46ff-9f69-3113360d8c29")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -16899,6 +17173,279 @@
 			(uuid "d168f08a-65a1-4811-b18c-5e3e815d2cd9")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Diode_SMD:D_SMA"
+		(layer "F.Cu")
+		(uuid "eba1edeb-cbfd-44b6-943f-719d96616780")
+		(at 77.5 55.25)
+		(descr "Diode SMA (DO-214AC)")
+		(tags "Diode SMA (DO-214AC)")
+		(property "Reference" "D4"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "c4695229-53c9-4b9a-ba39-bc6a02933d33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 0 2.6 0)
+			(layer "F.Fab")
+			(uuid "6dc8bb41-ce83-4073-9861-0e64dcc82cc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04dd645b-f365-450d-ac4f-1effc72ea884")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c62164c0-67fd-4b5c-84c5-4c295aa97de5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "D*SMA*")
+		(path "/6cc8ba33-bfd8-4586-9c86-edca37097927")
+		(sheetname "/")
+		(sheetfile "Dreamscape-F722.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -3.51 -1.65)
+			(end -3.51 1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a8e75f79-31ca-4371-92cd-1bcf3417a620")
+		)
+		(fp_line
+			(start -3.51 -1.65)
+			(end 2 -1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea3e46f3-031b-403c-87dc-8c8dd033e9ec")
+		)
+		(fp_line
+			(start -3.51 1.65)
+			(end 2 1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "37cb29d5-7659-476e-b377-1e6f88664b5c")
+		)
+		(fp_line
+			(start -3.5 -1.75)
+			(end 3.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d65ddcef-ad97-49a2-b86d-6f09de5e8a17")
+		)
+		(fp_line
+			(start -3.5 1.75)
+			(end -3.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7b5856af-d019-4d77-9ba1-40575a85e5af")
+		)
+		(fp_line
+			(start 3.5 -1.75)
+			(end 3.5 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9e688a2f-14ab-48ed-b69e-c8c7ad1e2166")
+		)
+		(fp_line
+			(start 3.5 1.75)
+			(end -3.5 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "778f0cef-2fa0-430b-ae05-9088d80eb7b2")
+		)
+		(fp_line
+			(start -2.3 1.5)
+			(end -2.3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cf9525b5-e6b9-48bb-b2a9-ded166b14180")
+		)
+		(fp_line
+			(start -0.64944 -0.79908)
+			(end -0.64944 0.80112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0056628b-502b-488e-99ee-c11cc40cfc8e")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end -1.55114 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a178050-c44c-4b35-9139-77b9e07d5698")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5698b0ed-e859-4ae6-8610-4d300f5bc450")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 0.75032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0946869b-4499-4bec-9ec8-9001dc0dad4f")
+		)
+		(fp_line
+			(start 0.50118 0.00102)
+			(end 1.4994 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3d0e7297-6b01-4ebd-90a3-f7fb1e4534f2")
+		)
+		(fp_line
+			(start 0.50118 0.75032)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae1ded59-52d2-4b8f-a2db-af8667da39a9")
+		)
+		(fp_line
+			(start 2.3 -1.5)
+			(end -2.3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b10a21f3-e421-4a94-b0d4-6024da30d1ac")
+		)
+		(fp_line
+			(start 2.3 -1.5)
+			(end 2.3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f98ece94-5a63-4f0a-97f8-7fb3a914e25d")
+		)
+		(fp_line
+			(start 2.3 1.5)
+			(end -2.3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "28417845-0c96-465e-a2ba-9ab06112efd9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "ba116dd4-aa04-4b68-a2d9-9c2cf417c5c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2 0)
+			(size 2.5 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net 5 "+5V")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "4ca1b926-4c5e-4b86-9856-8de87503ea27")
+		)
+		(pad "2" smd roundrect
+			(at 2 0)
+			(size 2.5 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net 84 "Net-(D4-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "b8634f39-0ae1-4db6-9f77-327043044f33")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
@@ -16956,7 +17503,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e956d687-5a60-43d2-859f-0bca41c57537")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -17098,7 +17645,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7cb4f76e-4bab-48bd-9f65-82b545f8e87b")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 0.36)
@@ -17241,7 +17788,7 @@
 		(property ki_fp_filters "Texas*DRT*")
 		(path "/ba777695-d1ec-4a6c-b359-cb7f84a1b201")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.65 0)
@@ -17609,7 +18156,7 @@
 		)
 		(path "/36a94c75-36a8-448f-a6ca-e345a534184d/4b8d1683-5ba5-4b8b-ab20-43e0495ced4b")
 		(sheetname "/Sensors/")
-		(sheetfile "customDevboard_Sensors.kicad_sch")
+		(sheetfile "Dreamscape-F722_Sensors.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.3 0.3)
@@ -17825,7 +18372,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/50270d76-fdc1-4bbb-8090-392845f166fd")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.76 1.56)
@@ -18191,7 +18738,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/990eeb22-44a8-4940-9e47-4960bef367d5")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.115835 -0.36)
@@ -18333,7 +18880,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a3fb5a41-73fc-4a29-8b7a-1a06c5c15bd8")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -18477,7 +19024,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/34aa1adb-bed1-48ea-b5cd-692deb836971")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -18582,7 +19129,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/099ce33a-5121-460f-ab8f-9a72c76b8d4d")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -1.25)
@@ -18691,7 +19238,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2866c37b-0ad6-4271-b175-4e0941780239")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start 0.7 0.7)
@@ -18858,7 +19405,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c53b1b7a-7f80-4edf-94ea-999143990ae9")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start 0.7 0.7)
@@ -19025,7 +19572,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/bd438050-25f5-4625-b74f-511d1292cf58")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start 0.7 0.7)
@@ -19192,7 +19739,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/13582697-2bc9-41df-9704-28b89fa9e71e")
 		(sheetname "/")
-		(sheetfile "customDevboard.kicad_sch")
+		(sheetfile "Dreamscape-F722.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.7 -0.7)
@@ -20454,46 +21001,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "ef7d3556-324f-4f23-8148-88646c5f7f84")
-	)
-	(segment
-		(start 48.8 27.55)
-		(end 49.882 28.632)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "005675b9-bc5b-4912-bb58-88ad941770e8")
-	)
-	(segment
-		(start 49.882 28.632)
-		(end 49.882 31.511992)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "24666b61-3e75-4f91-94b4-c4ad30df896e")
-	)
-	(segment
-		(start 48.943992 32.45)
-		(end 48.455 32.45)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "b49500f6-b574-4e8c-a84c-45ecdc26685c")
-	)
-	(segment
-		(start 49.882 31.511992)
-		(end 48.943992 32.45)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "cc99253d-258d-4cc3-8d18-7f5db11ebd7f")
-	)
-	(segment
-		(start 48.455 27.55)
-		(end 48.8 27.55)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "e5db1a3c-7de1-4009-a872-40b318dda388")
 	)
 	(segment
 		(start 27.05 38.5)
@@ -27810,6 +28317,46 @@
 		(layer "F.Cu")
 		(net 79)
 		(uuid "c8e1d358-2360-45b8-8df2-794e25a14d9a")
+	)
+	(segment
+		(start 48.8 27.55)
+		(end 49.882 28.632)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "005675b9-bc5b-4912-bb58-88ad941770e8")
+	)
+	(segment
+		(start 49.882 28.632)
+		(end 49.882 31.511992)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "24666b61-3e75-4f91-94b4-c4ad30df896e")
+	)
+	(segment
+		(start 48.943992 32.45)
+		(end 48.455 32.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "b49500f6-b574-4e8c-a84c-45ecdc26685c")
+	)
+	(segment
+		(start 49.882 31.511992)
+		(end 48.943992 32.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "cc99253d-258d-4cc3-8d18-7f5db11ebd7f")
+	)
+	(segment
+		(start 48.455 27.55)
+		(end 48.8 27.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "e5db1a3c-7de1-4009-a872-40b318dda388")
 	)
 	(zone
 		(net 1)
