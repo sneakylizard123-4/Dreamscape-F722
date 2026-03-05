@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "customDevboard.kicad_pro",
+    "filename": "Dreamscape-F722.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -503,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../cad/Dreamscape-F722.step",
       "svg": "",
       "vrml": ""
     },
