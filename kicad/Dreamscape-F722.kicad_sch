@@ -4166,7 +4166,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV75733PDRV"
+		(symbol "Regulator_Linear:TLV75733PDBV"
 			(pin_names
 				(offset 0.254)
 			)
@@ -4181,7 +4181,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV75733PDRV"
+			(property "Value" "TLV75733PDBV"
 				(at 0 5.715 0)
 				(effects
 					(font
@@ -4190,7 +4190,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 0 8.255 0)
 				(effects
 					(font
@@ -4209,7 +4209,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
+			(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4227,7 +4227,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WSON*1EP*2x2mm*P0.65mm*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4236,7 +4236,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV75733PDRV_0_1"
+			(symbol "TLV75733PDBV_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -5.08)
@@ -4249,7 +4249,7 @@
 					)
 				)
 			)
-			(symbol "TLV75733PDRV_1_1"
+			(symbol "TLV75733PDBV_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -4260,7 +4260,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4278,7 +4278,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4296,26 +4296,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4334,26 +4315,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4371,7 +4333,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10790,90 +10752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV75733PDRV")
-		(at 158.75 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1616deaa-85a8-41ba-975e-c33f10b88647")
-		(property "Reference" "U2"
-			(at 158.75 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV75733PDRV"
-			(at 158.75 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 158.75 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
-			(at 158.75 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6"
-			(at 158.75 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "20b8f152-18a7-4e86-b8ee-0d4dad65319e")
-		)
-		(pin "4"
-			(uuid "466ee789-b4a2-41e9-978d-f30e0e8ec6bb")
-		)
-		(pin "6"
-			(uuid "a32bb603-73d5-477b-8ac0-3c569c0e3df5")
-		)
-		(pin "5"
-			(uuid "c8f883b9-78b8-4cc2-97dd-0ecc526cdfde")
-		)
-		(pin "1"
-			(uuid "31eddf8e-2fe9-44f6-8ed7-bd85ed17bd11")
-		)
-		(pin "3"
-			(uuid "ce784bf8-f5c0-4adc-9fd7-722f292c55c3")
-		)
-		(pin "2"
-			(uuid "71fa62db-921f-425e-815f-a30f1ca9de06")
-		)
-		(instances
-			(project "customDevboard"
-				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 44.45 38.1 0)
 		(unit 1)
@@ -14200,6 +14078,84 @@
 			(project "Dreamscape-F722"
 				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV75733PDBV")
+		(at 158.75 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d711152-94fa-440b-b9c2-a8e863c998eb")
+		(property "Reference" "U2"
+			(at 158.75 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75733PDBV"
+			(at 158.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 158.75 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
+			(at 158.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 158.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0e894fb0-9b78-406c-a470-033a15cbfc4e")
+		)
+		(pin "2"
+			(uuid "a217208b-2ba2-47a7-8ffb-39343c116ce7")
+		)
+		(pin "3"
+			(uuid "dc38ff6d-c661-40f1-bc4e-58a0f3739567")
+		)
+		(pin "5"
+			(uuid "a6848dc3-da25-4727-8016-36143cd938d6")
+		)
+		(pin "1"
+			(uuid "bfe13a41-d85e-4a72-885f-84957cd53bad")
+		)
+		(instances
+			(project ""
+				(path "/87078d80-bd64-4f8e-8d0b-a79df4010aa3"
+					(reference "U2")
 					(unit 1)
 				)
 			)
